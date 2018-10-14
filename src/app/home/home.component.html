@@ -1,0 +1,31 @@
+<div class="container">
+<br/>
+        <h3 style="text-align: center"> List Of Posts</h3>
+ 
+  <br /> <br />
+  <div class="row">
+    <div class="col-m-6">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>Tittle</th>
+            <th>Body</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of items | paginate: { id: 'listing_pagination',
+          itemsPerPage: 10,
+          currentPage: page,
+          totalItems: totalRec }; let n=index;">
+            <td>{{ (page - 1) * 10 + n +1 }}
+              </td>
+            <td>{{item.title}}</td>
+            <td>{{item.body}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <pagination-controls  id="listing_pagination" maxSize="5" directionLinks="true" (pageChange)="page = $event"></pagination-controls>
+	</div>
+</div>
+</div>

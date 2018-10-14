@@ -1,0 +1,116 @@
+.userTableDiv table{
+    width: 100%;
+}
+.userTableDiv{
+    background: #fff;
+   
+}
+table.packageTable thead tr th{
+    min-width: 150px;
+    position: relative;
+}
+
+
+table.packageTable thead tr th:nth-child(2),
+table.packageTable thead tr th:nth-child(3),
+table.packageTable thead tr th:nth-child(4),
+table.packageTable thead tr th:nth-child(5),
+table.packageTable thead tr th:nth-child(6),
+table.packageTable thead tr th:nth-child(7),
+table.packageTable thead tr th:nth-child(8){
+     min-width: 100px;
+}
+table.packageTable thead tr th:nth-child(1){
+    min-width: 70px;
+}
+table.packageTable thead tr th:last-child{
+    width: 130px;
+}
+
+.edit-table table.packageTable thead tr th:nth-child(1){
+    min-width: 100px;
+}
+.edit-table table.packageTable thead tr th:last-child{
+    min-width: 100px;
+}
+
+
+.paginationSection{
+    padding-right: 15px;
+}
+input.showEnt,
+select.showEnt{
+    display: inline-block;
+    width: 80px;
+    max-width: 80px;
+    margin: 0 5px;
+}
+input.dataTableSearch{
+    display: inline-block;
+    margin: 0 0 0 10px;
+    max-width: 250px;
+}
+table.packageTable thead tr th a{
+    position: absolute;
+    right: 0;
+    height: 20px;
+    width: 15px;
+    color: #333;
+}
+table.packageTable thead tr th a span{
+    position: absolute;
+}
+table.packageTable thead tr th a span.upCaret{
+    top:-5px
+}
+table.packageTable thead tr th a span.downCaret{
+    bottom: -5px;
+}
+.addpackage-btn 
+ {
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: #164998;
+    border: 2px solid #164998;
+    padding: 10px 44px;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.addpackage-btn i{
+    display: inline-block;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+.m-btm20 {
+    margin-bottom:20px;
+}
+.mr-0{
+    margin-top: 0;
+}
+.ptop-10 {padding-top: 10px;}
+.margin-top10 {
+    margin-top:10px;
+}
+
+
+    .packageTable thead th, .packageTable tbody td {vertical-align: middle;}
+    .green-text{
+        color: #149906; 
+    }
+    .red-text{
+        color: #ff1010; 
+    }
+    .cancel-btn {border: 2px solid #d43f3a !important; background-color: transparent !important; margin-left: 15px; color: #d43f3a;}
+
+.cancel-btn:hover {background-color: #d43f3a !important; color:#fff;}
+
+.cls-btn {width:30px; height: 30px; border-radius: 50px; background-color: #000; opacity: inherit;
+    line-height: inherit; color: #fff; text-shadow: none; position: relative; top: -20px; left: 23px;}
+
+  
