@@ -9,7 +9,7 @@ import { HttpModule } from '@angular/http';
 import {NgxPaginationModule} from 'ngx-pagination'; 
 import { TableComponent } from './table/table.component';
 import { FormsModule } from '@angular/forms';
-
+import {DataTableModule } from 'angular-4-data-table';
 import { Ng2SearchPipeModule } from 'ng2-search-filter'; 
 import { CustomFilterPipe } from './pipes/customFilter.pipe';
 import { CustomTableComponent } from './custom-table/custom-table.component';
@@ -84,7 +84,8 @@ import {
       MatProgressBarModule,
       MatSortModule,
       MatSnackBarModule,
-      MatStepperModule
+      MatStepperModule,
+      DataTableModule
    ],
    providers: [
       UserServiceService
